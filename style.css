@@ -26,19 +26,24 @@
     display: flex;
     column-gap: 10px;
 }
-.three {
+
+
+
+.wrap2 {
     width: 90%;
     height: 350px;
     background-color: royalblue;
-}
-.wrap2 {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-evenly;
     padding-top: 300px;
+    position: absolute;
+
 }
 .four {
+    background-color: darkslateblue;
     width: 150px;
     height: 150px;
-    background-color: darkslateblue;
+    position: relative;
+    bottom: -75px;
 }
